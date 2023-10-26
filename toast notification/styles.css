@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+#button{
+ 
+    background-color: white;
+    color: #000; /* Set the text color to black for better visibility on a white background */
+    padding: 10px 20px; /* Add some padding for better button appearance */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover for better user experience */
+
+}  
+/* Add a hover effect for the button */
+#button:hover {
+    background-color: #8f7a7a; /* Light gray background on hover */
+}
+.toast {
+    position: relative;
+    bottom: 20px;
+    left: 30%;
+    background-color: #ce6565;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   
+  }
+  
